@@ -155,12 +155,15 @@ letter-spacing: 0.02em;
     background-color: #404BBF;
 }
 /* Section 2 */
-.hidden {
-  display: none;
-   visibility: hidden; 
-   opacity: 0;
-   width: 0; 
-   height: 0; 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; 
   }
   
   .page-advantages-list {
